@@ -1,0 +1,69 @@
+  .container {
+    background-color: none;
+    margin: auto;
+    /* border: 1px solid black;
+    border-radius: 10px;  */
+    padding: 2%;
+    margin-top: 15px;
+  }
+  
+  .button-container {
+    position: absolute;
+    left: 800px;
+    top: 635px;
+    width: 300px;
+  }
+  
+.fill-button, .save-button, .load-button {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  background-color: aliceblue;
+  margin-right: 5%;
+  border-radius: 2px;
+}
+
+  .row {
+    display: inline-block;
+  }
+  
+.grid-container {
+  position: absolute;
+  left: 15px;
+}
+
+  .square {
+    background-color: none;
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .palette-container {
+    position: absolute;
+    width: 225px;
+    height: 625px;
+    top: 25px;
+    left: 1150px;
+    background-color: none;
+  }
+
+  .circle {
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 5px;
+  }
+
+  .instructions {
+    position: absolute;
+    background-color: white;
+    left: 820px;
+    top: 25px;
+    height: 225px;
+    width: 300px;
+    border: 1px solid black;
+  }

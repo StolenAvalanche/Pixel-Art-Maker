@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Maker</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body {
+  background-image: url(../Photos/chicken-background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+    </style>
+</head>
+<body>
+  <div class="grid-container"></div>
+  <div class="instructions">
+      <p><h2>Welcome to Minecraft pixel art maker!</h2></p>
+      <p>To use this 30x30 grid, select a block. When you do so, the color of that block will be available to draw with.
+        You can save and load your progress at any time with the save and load buttons. Using fill, you can turn the
+        entire grid one color. If you wish to return to the transparent blocks, use a right click. Have fun!
+      </p>
+  </div>
+  <div class="palette-container">
+  </div>
+  <div class="container button-container">
+    <button class="fill-button">FILL</button>
+    <button class="save-button">SAVE</button>
+    <button class="load-button">LOAD</button>
+    <script src="grid.js"></script>
+</body>
+</html>
